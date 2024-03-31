@@ -5,6 +5,7 @@ import App from './App'
 import Profile from './pages/Profile'
 import reportWebVitals from './reportWebVitals'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { Signup } from './pages/Signup'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
@@ -17,7 +18,12 @@ const router = createBrowserRouter([
     path: '/profile',
     element: <Profile />,
   },
+  {
+    path: '/signup',
+    element: <Signup />,
+  },
 ])
+
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
