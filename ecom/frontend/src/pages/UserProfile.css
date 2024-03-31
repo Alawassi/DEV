@@ -1,0 +1,77 @@
+/* UserProfile.css */
+.user-profile {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-image: linear-gradient(135deg, #06beb6 0%, #48b1bf 100%);
+  min-height: 100vh;
+}
+
+.profile-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #333;
+  width: 90%;
+  max-width: 600px;
+}
+
+.field {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.field i {
+  margin-right: 0.5rem;
+}
+
+.field .p-inputtext,
+.field .p-calendar .p-inputtext,
+.field .p-dropdown .p-dropdown-label,
+.field .p-inputtextarea {
+  width: 100%;
+  border: none;
+}
+
+.save-btn {
+  display: block;
+  width: 100%;
+  background-color: #06beb6;
+  border: none;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #048a9d;
+}
+
+.last-orders {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.last-orders h5 {
+  margin-bottom: 10px;
+}
+
+.last-orders ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.last-orders li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.last-orders li:last-child {
+  border-bottom: none;
+}
